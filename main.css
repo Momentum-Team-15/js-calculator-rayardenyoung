@@ -7,17 +7,18 @@
     height: 475px;
     
 }
-#clear {
-    grid-column: 1;
+
+#answer_box {
+    grid-column: 2/span 3;
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     border: .25px solid lightgreen;
 }
 
-#results_bar {
-    grid-column: 2/span 3;
-    border: 2px solid black;
+#clear {
+    grid-column: 1;
     display: flex;
     justify-content: center;
     align-items: center;

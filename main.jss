@@ -1,23 +1,35 @@
+const displayAnswer = document.querySelector("#answer_box");
+
 let buttons = document.querySelectorAll(".button")
-for (let button of buttons)
+for (let button of buttons) {
     button.addEventListener("click", (event) => {
         console.log(button.innerText);
+
+        let newElement = document.createElement('div')
+        let text = document.createTextNode(button.innerText)
+        newElement.appendChild(text)
+        displayAnswer.appendChild(newElement)
+
     })
 
-// JS, go find all the elements with the class 'button'
-// querySelector only finds the first element
-// JS gets the literal chunks of HTML
+}
 
-let resultsBar = document.querySelector(".results_bar");
-// JS gets the picture frame element
+
+
+
+
+
+
+
+
+
+
 
 // let button7 = document.querySelector('#seven');
 //     //makes 7 clickable, logs inner text of id seven 
 //     button7.addEventListener("click", (event) => {
 //         console.log(button7.innerText);
 //     })
-
-
 
 
 
@@ -32,8 +44,6 @@ for (let button of buttons) {
         // text
         button.classList.remove("green");
         button.classList.add("teal");
-
-
 
 
 
