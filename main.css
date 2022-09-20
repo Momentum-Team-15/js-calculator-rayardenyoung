@@ -1,0 +1,154 @@
+
+.main_container {
+    border: .25px solid lightgreen;
+    display: grid;
+    grid-template-columns: 25%;
+    width: 400px;
+    height: 475px;
+    
+}
+#clear {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+
+#results_bar {
+    grid-column: 2/span 3;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#seven {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#eight {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#nine {
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#divide {
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#four {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#five {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#six {
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#multiply {
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#one {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#two {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#three {
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#subtract {
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#zero {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#decimal {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#equal {
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+}
+        
+#add {
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25px solid lightgreen;
+
+}
